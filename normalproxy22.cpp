@@ -109,9 +109,7 @@ protected:
 
 int main(int argc, char const *argv[])
 {
-
 	GamePlayerProxy gp("zhangsan","passwd",10);
 	gp.play();
-
 	return 0;
 }
