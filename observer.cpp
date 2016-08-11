@@ -16,6 +16,13 @@
 // 异步处理问题：
 // 被观察者较多，触发响应--异步处理（消息队列）
 
+
+// 改进
+// 观察者和被观察者之间的消息沟通：在updata中增加参数observer，msg
+// 观察者响应方式：// 多线程异步架构/缓存技术同步架构
+// 被观察者自己做主。
+
+
 #include "afxstd.h"
 #include <vector>
 using namespace std;
