@@ -95,7 +95,7 @@ protected:
 		}
 		st.resize(st.size()-1);
 		return st;
-	}
+	}  
 public:
 	recorder resolve(string domain)
 	{
